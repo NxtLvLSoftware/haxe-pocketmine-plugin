@@ -67,6 +67,7 @@ function main(): void
     recurse_copy(__DIR__ . "/out/lib", __DIR__ . "/out/phar/src");
     recurse_copy(__DIR__ . "/resources", __DIR__ . "/out/phar/resources");
     copy(__DIR__ . "/plugin.yml", __DIR__ . "/out/phar/plugin.yml");
+    copy(__DIR__ . "/LICENSE", __DIR__ . "/out/phar/LICENSE");
 
     $includedPaths = ["out/phar"] + PLUGIN_EXTRA_PATHS;
     array_walk($includedPaths, function (&$path, $key) {
