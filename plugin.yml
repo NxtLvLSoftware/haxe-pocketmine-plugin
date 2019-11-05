@@ -1,0 +1,5 @@
+name: haxe-pm-example
+description: Example PocketMine-MP plugin written in haxe.
+main: nxtlvlsoftware\haxeexample\plugin\Loader
+version: 0.0.1
+api: 3.0.0

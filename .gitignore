@@ -1,0 +1,10 @@
+/vendor
+/.idea
+/.vscode
+/.vagrant
+/builds
+/out
+/virions
+*.iml
+DS_Store
+*.phar

@@ -1,0 +1,18 @@
+{
+  "name": "haxe-pocketmine-plugin",
+  "url": "https://github.com/NxtLvLSoftware/haxe-pocketmine-plugin",
+  "license": "MIT",
+  "tags": [
+    "php",
+    "pocketmine",
+    "plugin"
+  ],
+  "description": "An example pocketmine plugin written in Haxe",
+  "version": "0.0.1",
+  "releasenote": "in-dev",
+  "contributors": [
+    "JackNoordhuis"
+  ],
+  "dependencies": {},
+  "classPath": "src"
+}

@@ -1,0 +1,10 @@
+-cp src
+plugin.Loader
+plugin.DummyThread
+--library phpnatives
+--library haxe-php-pthreads
+--library haxe-pocketmine-classloader
+--library haxe-pocketmine-log
+--library pocketmine-haxe
+-D php-prefix=nxtlvlsoftware.haxeexample
+--php out
